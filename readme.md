@@ -4,6 +4,6 @@
 Далее мы построили ряд моделей линейной регрессии предсказывающих стоимость автомобиля, в качестве ф-ии потерь использовали MSE, в качестве метрики эффективности модели R^2. От классичекой модели со стандартными параметрами перешли к моделям с регуляризацией: L1, L2, L1+L2. Параметры моделей подбирали с помощью кросс-валидации по GridSearch объекту. Наибольший прирост эффективности получили за счёт добавления в модель категориальных признаков закодированных с помощью OneHotEncoding.
 Самая ээфективная из полученных моделей была реализована в качестве приложения fastapi, которое может получать на вход по одному объекту, а также множество объектов в csv файле, и отдавать предсказания для этих объектов.
 В виду ограничений по времени на работу не был реализован ряд действий, которые могли бы улучшить качество модели: другие ф-ии потерь (MAE, квантильная ф-ия), часть параметров можно было бы заменить/убрать, часть сгруппировать. Раюота с признаками, думаю, могла бы дать ощутимый прирост эффективности модели.
-([https://github.com/max-kovalenko](https://github.com/max-kovalenko/ml_hw1/edit/master/scr1.png)
-([https://github.com/max-kovalenko](https://github.com/max-kovalenko/ml_hw1/edit/master/scr2.png)
-([https://github.com/max-kovalenko](https://github.com/max-kovalenko/ml_hw1/edit/master/scr3.png)
+[predict_item](https://github.com/max-kovalenko/ml_hw1/edit/master/scr1.png)
+[predict_items](https://github.com/max-kovalenko/ml_hw1/edit/master/scr2.png)
+[terimnal](https://github.com/max-kovalenko/ml_hw1/edit/master/scr3.png)
